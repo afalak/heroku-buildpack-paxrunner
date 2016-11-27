@@ -2,7 +2,7 @@
 # bin/detect <build-dir>
 
 if [ -f $1/paxrunner ]; then
-   echo "Java/OSGi (using Pax Runner 1.7.6)" && exit 0
+   echo "Java/OSGi (using Pax Runner 1.9.0)" && exit 0
 else
   echo "no" && exit 1
 fi
